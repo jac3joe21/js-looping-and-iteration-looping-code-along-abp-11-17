@@ -2,8 +2,8 @@
 const printBadges = (['Lisa', 'Kaitlin', 'Jan']);
 
 function printBadges () {
-  for (let i = 0; i < names; i++) {
-    console.log(`Welcome ${printBadges[i]}! You are employee #1`);
+  for (let i = 0; i < names.length; i++) {
+    console.log(`Welcome ${names[i]}! You are employee #1`);
   }
-  return printBadges;
+  return names;
 }
